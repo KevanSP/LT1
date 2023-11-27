@@ -150,6 +150,7 @@ def display_main_menu():
             print("\nInvalid Price Range entered !")
     elif option == '4':
         result_list = sort_by_items(csv_list)
+        print(result_list)
         display_results(result_list)
 
     # Quit application
