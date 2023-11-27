@@ -34,9 +34,9 @@ def calc_average_expenses(csv_list):
 
     # Add your implementation from here
     #HINT start with this code: for item in csv_list:
-
-
-
+    numofitems = len(csv_list)
+    total_expenses = calc_total_expenses(csv_list)
+    average = total_expenses/numofitems
     return average
 
 ##################################################################
@@ -52,7 +52,8 @@ def calc_total_expenses(csv_list):
 
     # Add your implementation from here
     #HINT Start with this code: for item in csv_list:
-
+    for item in csv_list:
+        total_expenses += item
 
     return total_expenses
 
