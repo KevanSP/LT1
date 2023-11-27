@@ -94,7 +94,7 @@ def sort_by_items(csv_list):
     result = []
 
     # Add your implementation from here
-    result = sorted(csv_list.items())
+    result = sorted(csv_list, key=lambda x:x["expense_item"])
 
     return result
 
