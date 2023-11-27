@@ -3,16 +3,15 @@ import labtest1
 
 def test_calc_average_expenses():
     csv_list=labtest1.load_csv_database()
-
-
-
+    result = labtest1.calc_average_expenses(csv_list)
+    assert result ==
 
 def test_calc_total_expenses():
     csv_list=labtest1.load_csv_database()
 
 
 def test_is_price_range_valid():
-
+    labtest1.is_price_range_valid()
 
 
 def test_get_items_by_price_range():
