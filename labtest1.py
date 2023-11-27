@@ -33,7 +33,7 @@ def is_price_range_valid(price_lower_limit, price_upper_limit):
 #    average: Calculated overal averae expenses                  #
 ##################################################################
 def calc_average_expenses(csv_list):
-    average = 0
+    average = 0.0
 
     # Add your implementation from here
     #HINT start with this code: for item in csv_list:
